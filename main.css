@@ -54,6 +54,11 @@ main {
         margin-top: 0;
         max-height: 100%;
     }
+
+    img {
+        padding-top: 3rem;
+        height: 12vw;
+    }
     /* ul#two {
         justify-self: right;
     } */
