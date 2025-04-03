@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "Eurostile Extended";
+    src: url("EurostileExtended-Black.ttf");
+}
+body {
+    background-color: rgb(29, 25, 21);
+    padding: 0;
+    margin: 0;
+    size: 100%;
+    font-weight: bold;
+    font-family: "Eurostile Extended", sans-serif;
+    
+}
+/* img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+} */
+li {
+    font-size: 1.5rem;
+    width: 15rem;
+    display: flex;
+    margin-top: .5rem;
+    background-image: linear-gradient(to right,#f2df4f, #ffffff,#f2df4f);
+    border-width: .2rem;
+    border-style: solid;
+    .right {
+        width: 100%;
+        text-align: end;
+    }
+    span {
+        width: min-content;
+        padding: .2rem;
+    }
+}
+
+div {
+    font-size: 1.5rem;
+    min-width: 15rem;
+    width: fit-content;
+    height: max-content;
+    display: flex;
+    margin-top: 2rem;
+    background-image: linear-gradient(to right,#f2df4f, #ffffff,#f2df4f);
+    border-width: .2rem;
+    border-style: solid;
+    .right {
+        min-width: 6.6rem;
+        text-align: end;
+    }
+    span {
+        width: max-content;
+        padding: .2rem;
+    }
+}
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    ul {
+        padding: 2rem;
+        padding-top: 0;
+        margin-top: 0;
+        max-height: 100%;
+    }
+
+    img {
+        padding-top: 3rem;
+        height: 12vw;
+    }
+    /* ul#two {
+        justify-self: right;
+    } */
+}
